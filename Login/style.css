@@ -1,0 +1,85 @@
+.bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background: url(Imagens\ e\ Vídeos/auto) no-repeat;
+	background-size: cover; 
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+.card{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.card-top{
+    text-align: center;
+}
+
+.img-login{
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.title{
+    color:teal;
+}
+
+.card-group{
+    margin-bottom: 10px;
+}
+
+.card-group > label{
+    width: 100%;
+    color: black;
+    display: block;
+}
+
+.card-group > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    border: ridge;
+}
+
+.card-group > button{
+    background-image: linear-gradient(to top, black, teal);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color:white;
+    border: 0px;
+    text-transform: uppercase;
+    outline: 0;
+}
+
+.btn {
+    border-color: teal;
+    color: #fff;
+    box-shadow: 0 0 40px 40px black inset, 0 0 0 0 black;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    border-radius: 30px;
+  }
+  .btn:hover {
+    box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px teal;
+    border-radius: 30px;
+  }
